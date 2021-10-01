@@ -1,0 +1,11 @@
+javac src/com/company/task9/*.java
+
+javac src/com/company/Main.java
+
+java -cp . Main
+
+jar cvf Task9.jar Main.class
+
+в .txt "java -jar Task9.jar" и меняем расширение на .bat для запуска
+
+
